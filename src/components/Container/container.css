@@ -1,0 +1,16 @@
+.wrapper-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(164, 188, 196);
+}
+.centered-box {
+    display: flex;
+    flex-direction: column;
+    width: 990px;
+    padding: 1rem 2rem;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
